@@ -1,0 +1,23 @@
+{
+  "name": "goods-girl",
+  "version": "1.0.0",
+  "description": "A Discord bot that checks out if goods are in store or not",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mestima/goods-girl.git"
+  },
+  "author": "Mestima",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mestima/goods-girl/issues"
+  },
+  "homepage": "https://github.com/Mestima/goods-girl#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "node-fetch": "^2.6.1"
+  }
+}

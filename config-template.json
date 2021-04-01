@@ -1,0 +1,17 @@
+{
+	"motd": "Bot is running...",
+	"status": "your wishes",
+	"statusType": "LISTENING",
+	"guildId": "<YOUR_GUILD_ID>",
+	"token": "<YOUR_BOT_TOKEN>",
+	"checkTime": 7,
+	"goods": {
+		"PlayStation 5": [
+			{"name": "<STORE_NAME>", "url": "<STORE_URL>", "delimiter": "<HTML_ELEMENT_CLASSNAME>", "elm": "<HTML_ELEMENT_NAME>", "text": "<SOLD_TEXT>"},
+			{"name": "Amazon", "url": "https://www.amazon.com/PlayStation-5-Console/dp/B08FC5L3RG", "delimiter": "a-size-medium a-color-price", "elm": "span", "text": "Currently unavailable."}
+		]
+	},
+	"data": {
+		"PlayStation 5": {"role": "<PS5_ROLE_ID>", "channel": "<CHANNEL_ID_TO_MENTION_IF_PS5_IS_IN_STORE>"}
+	}
+}
