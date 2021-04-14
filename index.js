@@ -24,7 +24,7 @@ const initCheckout = (bot) => {
 		});
 };
 
-const doCheckout = (bot, guild) => {
+const doCheckout = (bot, guild) => { // will do it better later
 	const goods = cfg.goods;
 	const data = cfg.data;
 	for (var k in goods) {
